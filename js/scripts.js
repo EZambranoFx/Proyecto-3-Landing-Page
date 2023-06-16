@@ -48,9 +48,9 @@ function hideProductInfo() {
     var productInfo = document.getElementById("product-info");
     productInfo.style.display = "none";
 }
+
 var contador=0;
 function cambiarTexto() {
-
     var span = document.getElementById("contador");
     contador++;
     span.textContent = contador;
