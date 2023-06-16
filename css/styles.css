@@ -106,6 +106,7 @@ body {
 
 .product-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product {
@@ -114,8 +115,8 @@ body {
 }
 
 .product img {
-  width: 200px;
-  height: 200px;
+  width: 190px;
+  height: 190px;
   border: 2px solid transparent;
 }
 
